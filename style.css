@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-weight: bold;
+}
+
+/*HEADER*/
+
+header{
+  background-color: rgb(0, 0, 0);
+  width: 100vw;
+  height: 80px;
+}
+
+.container-top{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-right: 10px;
+  padding-top: 10px;
+}
+
+.options-top{
+  background-color: rgb(68, 68, 68);
+  border: none;
+  border-radius: 4px;
+  padding: 5px 5px;
+}
+
+button:hover{
+  cursor: pointer;
+  
+}
+
+/*MAIN*/
+
+main{
+  background-color: rgb(0, 0, 0);
+  width: 100vw;
+  height: calc(100vh - 160px);
+  overflow: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+}
+
+.container-foto{
+  width: 250px;
+  height: 150px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+img{
+  width: 250px;
+  height: 150px;
+}
+
+.nome{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(68, 68, 68, 0.699);
+  padding: 3px 3px;
+
+}
+
+/*FOOTER*/
+
+footer{
+  background-color: rgb(33, 33, 33);
+  width: 100vw;
+  height: 80px;
+  display: flex;
+}
+
+.bottom-l{
+  background-color: blue;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  width: calc(100vw / 3);
+}
+
+.icon{
+  font-size: 30px;
+}
+
+h2{
+  font-size: 15px;
+}
+
+.tendina{
+  
+}
+
+.bottom-m{
+  background-color: brown;
+  height: 80px;
+  display: flex;
+  width: calc(100vw / 3);
+}
+
+.bottom-r{
+  background-color: aqua;
+  height: 80px;
+  display: flex;
+  width: calc(100vw / 3);
+}
