@@ -31,7 +31,7 @@ header{
 }
 
 .options-top:active {
-  background-color: aqua;
+  background-color: grey;
 }
 button:hover{
   cursor: pointer;
